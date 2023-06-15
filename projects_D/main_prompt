@@ -1,0 +1,30 @@
+As an engineer using VS Code, your task is to create a Tic-Tac-Toe game using the Pygame library. When running the program, you should be able to play the game within a Pygame window. The game should offer a single-player mode where the computer acts as the opponent.
+
+To accomplish this, you need to:
+
+Set up the game window using Pygame in VS Code.
+Implement the game logic, including the game board and player markers.
+Create functions to handle player moves and check for win or draw conditions.
+Display the game board and markers in the Pygame window.
+Enable player interaction by capturing mouse input for moves.
+Implement the computer opponent's move logic, such as random selection or a more sophisticated algorithm.
+Continuously update the game display and handle game termination conditions.
+Your goal is to build a functional and visually appealing Tic-Tac-Toe game that offers an enjoyable single-player experience against the computer opponent. Feel free to enhance the game by adding additional features or improving the user interface.
+
+Set up the Pygame window: Initialize Pygame, create a window, and set the window size and title.
+
+Create the game board: Design the game board using Pygame's drawing functions or load images for each cell. You can represent the game board as a 3x3 grid.
+
+Handle user input: Detect mouse clicks or keyboard events to allow players to make their moves on the game board. Map the input to the corresponding cell on the grid.
+
+Implement game logic: Track the state of the game, including the positions of the X and O markers on the grid. Check for winning conditions or a draw after each move.
+
+Display the game state: Update the Pygame window to reflect the current state of the game board, including the markers and any messages or prompts.
+
+Handle game restarts: Provide an option for players to restart the game once it ends. Reset the game board and clear the markers to start a new game.
+
+Implement game loop: Create a loop that continuously updates the display, handles user input, and checks for game events until the game is over or the user exits the window.
+
+Add visual effects and animations (optional): You can enhance the game's visual appeal by adding animations for moves, highlighting winning cells, or incorporating sound effects.
+
+Ensure you have the necessary modules, such as Pygame, installed and properly set up in your VS Code environment.
